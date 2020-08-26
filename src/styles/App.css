@@ -1,4 +1,45 @@
-div {
-  color: #27aedb;
-  text-align: center;
+.App {
+    width: 500px;
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createTask {
+    border: 1px solid #ff00ff;
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.createTask>input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.taskList {
+    padding: 10px;
+}
+
+.task {
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
