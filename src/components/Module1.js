@@ -1,5 +1,9 @@
 import React from "react";
 
 export const Module1 = () => {
-  return <div>123</div>;
+  return (
+    <div>
+      <button>BUTTON</button>
+    </div>
+  );
 };
