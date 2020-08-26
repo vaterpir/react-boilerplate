@@ -39,7 +39,10 @@
 }
 
 .task>div {
-    width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.task>input {
+    width: 100%;
 }
